@@ -25,7 +25,7 @@
   
   // DOCUMENT FONTS
   set text(font: "Liberation Sans", size: 12pt)
-  show math.equation: set text(font: "MathJax_AMS")
+  //show math.equation: set text(font: "MathJax_AMS")
   
   // FRONT PAGE
   set page(paper: "us-letter", margin: (left: 0.75in, right: 0.75in, top: 0.75in, bottom:1in))
@@ -67,7 +67,7 @@
   
   // PAGE SETUP FOR REST OF DOCUMENT
   set page(
-    paper: "a4",
+    paper: "us-letter",
     margin: (left: 27mm, right: 20mm, top: 20mm, bottom:30mm),
     numbering: "1",
     header: align(center, text(size: 10pt, [Biology Lab #task-no])),
